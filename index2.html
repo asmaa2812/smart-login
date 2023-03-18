@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@300;600&family=Playfair+Display&family=Poppins:ital,wght@0,600;1,300&family=Roboto:wght@300;500&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <section class="item">
+        <div class="demo  w-75 mx-auto my-5 p-5 ">
+            <h1 class="text-capitalize fw-bolder text-center ">smart login system</h1>
+            <input type="text" name="name" id="nameSignUp" class="form-control my-4 text-white " placeholder="enter your name">
+            <p class="fs-5 d-none" id="warning">this entry must begin with capital letter and followed by lowercase from 3 to 9</p>
+            <input type="email" name="email" id="emailSignUp" class="form-control my-4 text-white " placeholder="enter your email">
+            <input type="password" name="password" id="passSignUp" class="form-control text-white" placeholder="enter your password">
+            <div id="alertSignUp" class="alert text-capitalize fw-bold fs-4 d-none alert-dismissible fade show" role="alert">
+                <p >this input is required</p>
+            </div>
+            <button onclick="requiredInput()" class=" btn text-capitalize  fw-bold w-100 mx-auto my-3" id="btnUp text-center">sign up</button>
+            <h5 class="text-capitalize text-white text-center ">you have an account? <a href="index1.html" class="text-center text-capitalize text-white ">log in</a></h5>
+                                                                                                            
+        </div>
+    </section>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>

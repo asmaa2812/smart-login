@@ -1,0 +1,95 @@
+.demo,body,.home
+{
+    background-color: #24353f;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.demo
+{
+    box-shadow: 12px 12px  24px rgb(33,37,41) , -12px -12px  24px rgb(33,37,41);
+}
+.demo h1
+{
+    color: #17a2b8;
+}
+.demo input::placeholder
+{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: rgb(206,212,218);
+}
+.demo input
+{
+    background-color: transparent;
+}
+.demo button
+{
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+}
+.demo button:hover{
+    border: 1px solid #17a2b8;
+    background-color: #17a2b8;
+    color: #fff;
+}
+.demo a
+{
+    text-decoration: none;
+}
+.demo a:hover
+{
+    text-decoration: underline;
+}
+.demo input:focus
+{
+    background-color: transparent;
+    border: none !important;
+}
+
+.alert p, .demo p
+{
+    color:red;
+}
+.home
+{
+    height: 90vh;
+}
+.home .demo
+{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    transform: translateY(50%);
+}
+.home p{
+    color: #050f14 !important;
+}
+.navbar-brand
+{
+    color: #17a2b8;
+    transition: all 0.5s ease-in;
+}
+.navbar-brand:hover
+{   
+    color: #17a2b8 !important;
+    text-shadow: 2px 2px 13px white !important;
+}
+.button a
+{
+    text-decoration: none;
+    color: #17a2b8;
+}
+.button
+{
+    background-color: transparent !important;
+    border: none;
+    border: 1px solid #17a2b8 !important;
+    transition: all 0.5s ease-in-out;
+}
+.button:hover
+{
+background-color: #17a2b8 !important;
+}
+.button:hover a
+{
+    color: #24353f;
+}
